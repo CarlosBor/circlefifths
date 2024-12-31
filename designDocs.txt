@@ -1,0 +1,11 @@
+MVP:
+Full circle displays
+    Draw a circle, 12 sections, write the content in each section. That's gonna be a fun one.
+Clickable
+Press button => hides. keys show up, click on the appropiate section, success shown.
+
+Upgrades:
+Animations
+Score
+Timer
+Actual decent fken styles

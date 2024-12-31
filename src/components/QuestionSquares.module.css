@@ -1,0 +1,32 @@
+.questionSquareContainer{
+    height:50px;
+    width:600px;
+    background-color:blue;
+
+}
+
+.questionButton{
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.questionNoteContainer{
+    display:flex;
+    flex-direction:row;
+}
+
+.questionNoteContainer>div:first-child{
+    background-color:red;
+}
+
+.noteQuestion{
+    height:50px;
+    width:50px;
+    outline: 2px black solid;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:blueviolet;
+}
