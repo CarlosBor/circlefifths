@@ -13,15 +13,21 @@ body {
     -1px -1px 0 black,  
     1px -1px 0 black,  
     -1px 1px 0 black;
-    font-size: 20px;
     font-weight: 800;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
 
+  .circleMajor>.section>span{
+    font-size:20px;
+  }
+  .circleMinor>.section>span{
+    font-size:13px;
+  }
+
   .circleContainer{
     position:relative;
-    width:600px;
-    height:600px;
+    width:300px;
+    height:300px;
   }
   
   .circle {
@@ -31,16 +37,16 @@ body {
   }
   
   .circleMajor{
-    width: 600px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
 
   }
   
   .circleMinor{
-    width: 300px;
-    height: 300px;
-    left: 150px;
-    top: 150px;
+    width: 200px;
+    height: 200px;
+    left: 50px;
+    top: 50px;
     pointer-events:none;
   }
 
@@ -61,7 +67,7 @@ body {
   }
 
   .hideSection>span{
-    font-size:0;
+    font-size:0 !important;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
   }
   
