@@ -15,7 +15,7 @@ const Circle: React.FC<CircleProps> = (props) => {
     }
   };
 
-  const circleNotesMaj = ['C','G','D','A','E','B','Gb','Dd','Ab','Eb','Bb','F'];
+  const circleNotesMaj = ['C','G','D','A','E','B','Gb','Db','Ab','Eb','Bb','F'];
   const circleNotesMin = ['Am','Em','Bm','F#m','C#m','G#m','D#m','A#m','Fm','Cm','Gm','Dm'];
 
   return (

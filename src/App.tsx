@@ -17,6 +17,7 @@ function App() {
           quizMode = {quizMode}
         />
         <QuestionSquares 
+          setAnswerNote = {setAnswerNote}
           answerNote = {answerNote}
           setShowSection = {setShowSection}
           setQuizMode = {setQuizMode}
