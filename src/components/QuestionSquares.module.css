@@ -2,7 +2,6 @@
     height:50px;
     width:300px;
     background-color:blue;
-
 }
 
 .questionButton{
@@ -30,4 +29,11 @@
     justify-content:center;
     align-items: center;
     background-color:blueviolet;
+}
+
+.timer{
+    font-size: 20px;
+    font-weight: 600;
+    display:flex;
+    justify-content:center;
 }

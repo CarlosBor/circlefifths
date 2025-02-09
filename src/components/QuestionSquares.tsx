@@ -13,7 +13,7 @@ const QuestionSquare: React.FC<QuestionSquareProps> = (props) => {
   const {answerNote, setShowSection, setQuizMode, setAnswerNote} = props;
   const [displayTime, setDisplayTime] = useState<number>(0);
   const [highScore, setHighScore] = useState<number>(0);
-  const timerID = useRef<NodeJS.Timeout | null>(null); // Persist timer ID
+  const timerID = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const checkAnswer = (answer:string) =>{
@@ -78,8 +78,8 @@ const QuestionSquare: React.FC<QuestionSquareProps> = (props) => {
             <div key={note} data-note={note} className={styles.noteQuestion}><span>{note}</span></div>
           ))}
         </div>
-        <div className={styles.timer}>This the display {displayTime/1000}</div>
-        <div className={styles.timer}>This the highscore{highScore/1000}</div>
+        <div className={styles.timer}>Best time: {highScore/1000}</div>
+        {displayTime ? <div className={styles.timer}>Timer: {displayTime/1000}</div> : null}
   </div>
   )
 }
