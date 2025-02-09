@@ -13,7 +13,7 @@ const QuestionSquare: React.FC<QuestionSquareProps> = (props) => {
   const {answerNote, setShowSection, setQuizMode, setAnswerNote} = props;
   const [displayTime, setDisplayTime] = useState<number>(0);
   const [highScore, setHighScore] = useState<number>(0);
-  const timerID = useRef<NodeJS.Timeout | null>(null);
+  const timerID = useRef<number>();
 
   useEffect(() => {
     const checkAnswer = (answer:string) =>{
